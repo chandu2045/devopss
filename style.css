@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: #3dbc0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    width: 350px;
+    background: pink;
+    padding: 20px;
+    border: 1px solid #e10a6b;
+    border-radius: 8px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 8px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}

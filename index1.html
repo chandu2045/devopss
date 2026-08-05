@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: peachpuff;">
+       <div class="login">
+         <form action="index2.html" >
+            <center><h1>Registration Page</h1></center>
+            <label for="name">Name</label>
+
+            <input type="text" id="n" pattern="[A-za-z]+" name="name" placeholder="Enter your Name" >
+          <br>  <br><label for="Phone">Phone Number</label>
+            <input type="text" id="p" pattern="[0-9]{10}" minlength="10" maxlength="10" title="Enter Valid mobile Number" name="Phone"  placeholder="Enter your Phone Number" required>
+            <br><br>
+            <label for="Branch">Branch</label>
+            <select name="Branch" id="b">
+                <option value="CSE">CSE</option>
+                <option value="Aiml">AIML</option>
+                <option value="aids">AIDS</option>
+                </select>
+            <br>
+            <br>
+            <label for="hallticket">HallTicket</label>
+            <input type="text" id="h" name="hallticket" pattern="[0-9]{2}[d,D]{1}[0-9]{2}[A-Z,a-z]{1}[0-9]{2}[a-z,A-Z,0-9]{1}[1-9]{1}"
+            title="Enter Valid Hallticket Number " minlength="10" maxlength="10" placeholder="Enter you Hallticket" required>
+
+            <br><br><button type="reset">Back</button>
+            <button type="registration successful">Submit</button>
+        </form>
+       </div>
+</body>
+</html>
